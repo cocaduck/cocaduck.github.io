@@ -1,0 +1,476 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>通道模型 - CocaDuck’s Blog</title>
+<meta name="description" content="這篇文章將會介紹 MIMO 系統的通道特性，包括 Rayleigh、Rician 及毫米波通道">
+
+
+  <meta name="author" content="CocaDuck's Blog">
+  
+  <meta property="article:author" content="CocaDuck's Blog">
+  
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="CocaDuck's Blog">
+<meta property="og:title" content="通道模型">
+<meta property="og:url" content="http://localhost:4000/%E7%84%A1%E7%B7%9A%E9%80%9A%E8%A8%8A/wireless_01/">
+
+
+  <meta property="og:description" content="這篇文章將會介紹 MIMO 系統的通道特性，包括 Rayleigh、Rician 及毫米波通道">
+
+
+
+
+
+
+
+  <meta property="article:published_time" content="2023-02-25T00:00:00+08:00">
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="http://localhost:4000/%E7%84%A1%E7%B7%9A%E9%80%9A%E8%A8%8A/wireless_01/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "CocaDuck",
+      "url": "http://localhost:4000/",
+      "sameAs": ["https://twitter.com/","https://github.com/"]
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="CocaDuck's Blog Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+      inlineMath: [['$','$']]
+    }
+  });
+</script>
+<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+        <a class="site-title" href="/">
+          CocaDuck's Blog
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/categories/">Posts by Category</a>
+            </li><li class="masthead__menu-item">
+              <a href="/tags/">Post by Tag</a>
+            </li><li class="masthead__menu-item">
+              <a href="/search/">&#x1F50E;&#xFE0E;</a>
+            </li></ul>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+  
+
+
+
+
+
+
+
+<div class="page__hero--overlay"
+  style="background-color: #333; background-image: url('');"
+>
+  
+    <div class="wrapper">
+      <h1 id="page-title" class="page__title" itemprop="headline">
+        
+          通道模型
+
+        
+      </h1>
+      
+        <p class="page__lead">這篇文章將會介紹 MIMO 系統的通道特性，包括 Rayleigh、Rician 及毫米波通道
+</p>
+      
+      
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2023-02-25T00:00:00+08:00">February 25, 2023</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          less than 1 minute read
+        
+      </span>
+    
+  </p>
+
+
+      
+      
+    </div>
+  
+  
+</div>
+
+
+
+
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+  
+    
+      
+        <img src="/images/logo/wireless.jpg"
+             alt="Logo of Wireless Communication">
+      
+      
+      <p>在”無線通訊”這個系列，我會整理出我在研究所學習到的概念，以淺顯易懂的方式進行分享，讓大家可以更容易地了解無線通訊相關的知識。我的文章不需要複雜的數學知識，因此大家可以放心閱讀。無論你是初學者還是已經有一定基礎的讀者，我都希望能夠為你提供有價值的資訊！</p>
+
+      
+
+<nav class="nav__list">
+  
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">Toggle menu</label>
+  <ul class="nav__items">
+    
+  </ul>
+</nav>
+
+    
+    
+  
+  </div>
+
+
+
+  <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="通道模型">
+    <meta itemprop="description" content="這篇文章將會介紹 MIMO 系統的通道特性，包括 Rayleigh、Rician 及毫米波通道">
+    <meta itemprop="datePublished" content="2023-02-25T00:00:00+08:00">
+    
+
+    <div class="page__inner-wrap">
+      
+
+      <section class="page__content e-content" itemprop="text">
+        
+          <aside class="sidebar__right sticky">
+            <nav class="toc">
+              <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> On this page</h4></header>
+              <ul class="toc__menu"><li><a href="#什麼是天線陣列">什麼是天線陣列？</a><ul><li><a href="#單輸入單輸出-siso-通道">單輸入單輸出 (SISO) 通道</a></li><li><a href="#多輸入多輸出-mimo-通道">多輸入多輸出 (MIMO) 通道</a></li></ul></li><li><a href="#不同環境下的通道特性rayleighrician-與-mmwave-通道">不同環境下的通道特性：Rayleigh、Rician 與 mmWave 通道</a><ul><li><a href="#rayleigh-通道模型">Rayleigh 通道模型</a></li><li><a href="#rician-通道模型">Rician 通道模型</a></li><li><a href="#毫米波-mmwave-通道模型">毫米波 (mmWave) 通道模型</a></li></ul></li></ul>
+
+            </nav>
+          </aside>
+        
+        <h2 id="什麼是天線陣列">什麼是天線陣列？</h2>
+<p>當兩個單獨的天線互相進行訊號傳輸時，我們稱這樣的系統為單輸入單輸出 Single Input Single Output (SISO) 系統。而當我們把天線排成陣列時，接收和傳送端都會有多重的天線，我們稱這樣的系統為多輸入多輸出 Multiple Input Multiple Output (MIMO) 系統。MIMO 系統由於各種增益，可以更有效率的進行傳輸，這也是第四代通訊 (Fourth generation, 4G) 最重要的技術。</p>
+
+<h3 id="單輸入單輸出-siso-通道">單輸入單輸出 (SISO) 通道</h3>
+<p>當傳送端 (TX) 與接收端 (RX) 都使用單一天線傳輸時，一個複數值可以被用來描述傳送與接收信號間的差異，我們稱這個數值為通道增益。</p>
+
+<p>在一個增益變化較慢的通道中(可參考 <a href="https://en.wikipedia.org/wiki/Fading#Selective_fading">Flat Fading</a>)，下面的式子可以用來表示這個系統的概念。其中$y$, $h$, $x$都是複數純量，分別代表著接收信號、通道增益、傳輸信號。</p>
+
+<p>$y=hx$</p>
+
+<h3 id="多輸入多輸出-mimo-通道">多輸入多輸出 (MIMO) 通道</h3>
+<p>在 MIMO 系統中，TX 與 RX 都有多個天線。在一個 RX 具有 $m$ 個天線、TX 具有 $n$ 個天線的情況下，總共就會有 $m\times{}n$ 個 SISO 通道。</p>
+
+<p>下面的式子可以用來表示這個系統的概念。其中 $\mathbf{y}$, $\mathbf{H}$, $\mathbf{x}$ 是複數向量和矩陣，其大小分別是 $m\times{}1$、$m\times{}n$、$n\times{}1$。</p>
+
+<p>$\mathbf{y}=\mathbf{H}\mathbf{x}$</p>
+
+<h2 id="不同環境下的通道特性rayleighrician-與-mmwave-通道">不同環境下的通道特性：Rayleigh、Rician 與 mmWave 通道</h2>
+<p>接下來我們要介紹的是關於這些通道增益所呈現的特性，這會被環境所影響，這包括了傳輸使用的頻率、是否有障礙物遮擋、使用者的移動速度等等。</p>
+
+<h3 id="rayleigh-通道模型">Rayleigh 通道模型</h3>
+<p>下圖顯示一個在具備有多方向的散射的環境中。一般情況下室內會比較常見。這種狀況也比較常發生在低頻信號中，像是 WiFi、藍芽等。這些低頻信號甚至可以穿過牆壁進行傳輸。</p>
+
+<p><img src="/images/post_wireless/rayleigh.png" alt="Rayleigh Channel" /></p>
+
+<p>根據數學模型，如果把所有方向的訊號總和，這個增益將會呈現高斯分布。我們就稱這個通道為 Rayleigh 通道。</p>
+
+<p>Rayleigh通道可以被下面的矩陣表示。其中所有 $mn$ 個通道的 $h_{ij}$ 都是具高斯分布的”獨立”隨機變數。</p>
+
+<p>$\mathbf{H}=\begin{bmatrix} h_{11} &amp; h_{12} &amp; \dots{} &amp; h_{1n} \\ \vdots{} &amp; \vdots{} &amp; \ddots{} &amp; \vdots{} \\ h_{m1} &amp; h_{m2} &amp; \dots{} &amp; h_{mn} \end{bmatrix}$</p>
+
+<h3 id="rician-通道模型">Rician 通道模型</h3>
+<p>當 TX 與 RX 間沒有障礙物時的狀況，TX 和 RX 會有物理上點對點的直接傳輸，這一般被稱為 Line of Sight (LOS)。</p>
+
+<p><img src="/images/post_wireless/rician.png" alt="Rician Channel" /></p>
+
+<h3 id="毫米波-mmwave-通道模型">毫米波 (mmWave) 通道模型</h3>
+<p>由於高頻信號的效應(信號能量衰減率大)，毫米波的傳輸距離不遠，甚至會被牆壁阻擋。這樣的環境中(見下圖)，散射的量就會大幅減少。</p>
+
+<p><img src="/images/post_wireless/mmW.png" alt="mmW Channel" /></p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+  
+
+
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-tags" aria-hidden="true"></i> Tags: </strong>
+    <span itemprop="keywords">
+    
+      <a href="/tags/#mimo" class="page__taxonomy-item p-category" rel="tag">MIMO</a><span class="sep">, </span>
+    
+      <a href="/tags/#rayleigh" class="page__taxonomy-item p-category" rel="tag">Rayleigh</a><span class="sep">, </span>
+    
+      <a href="/tags/#rician" class="page__taxonomy-item p-category" rel="tag">Rician</a><span class="sep">, </span>
+    
+      <a href="/tags/#%E6%AF%AB%E7%B1%B3%E6%B3%A2" class="page__taxonomy-item p-category" rel="tag">毫米波</a><span class="sep">, </span>
+    
+      <a href="/tags/#%E9%80%9A%E9%81%93%E6%A8%A1%E5%9E%8B" class="page__taxonomy-item p-category" rel="tag">通道模型</a>
+    
+    </span>
+  </p>
+
+
+
+
+  
+
+
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> Categories: </strong>
+    <span itemprop="keywords">
+    
+      <a href="/categories/#%E7%84%A1%E7%B7%9A%E9%80%9A%E8%A8%8A" class="page__taxonomy-item p-category" rel="tag">無線通訊</a>
+    
+    </span>
+  </p>
+
+
+        
+
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time class="dt-published" datetime="2023-02-25T00:00:00+08:00">February 25, 2023</time></p>
+
+      </footer>
+
+      <section class="page__share">
+  
+    <h4 class="page__share-title">Share on</h4>
+  
+
+  <a href="https://twitter.com/intent/tweet?text=%E9%80%9A%E9%81%93%E6%A8%A1%E5%9E%8B%20http%3A%2F%2Flocalhost%3A4000%2F%25E7%2584%25A1%25E7%25B7%259A%25E9%2580%259A%25E8%25A8%258A%2Fwireless_01%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+
+  <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2F%25E7%2584%25A1%25E7%25B7%259A%25E9%2580%259A%25E8%25A8%258A%2Fwireless_01%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Flocalhost%3A4000%2F%25E7%2584%25A1%25E7%25B7%259A%25E9%2580%259A%25E8%25A8%258A%2Fwireless_01%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+</section>
+
+
+      
+
+
+  
+
+  
+
+  
+
+  
+
+  
+  	
+  	
+  	
+  	
+  	
+
+
+  <nav class="pagination">
+    
+      <a href="#" class="pagination--pager disabled">Previous</a>
+    
+    
+      <a href="/%E7%84%A1%E7%B7%9A%E9%80%9A%E8%A8%8A/wireless_02/" class="pagination--pager" title="處理通道造成的干擾
+">Next</a>
+    
+  </nav>
+
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+    </div>
+
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+
+    
+      <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2023 CocaDuck. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+
+
+
+  <script>
+  window.ga=function(){ga.q.push(arguments)};ga.q=[];ga.l=+new Date;
+  ga('create','5528068876','auto');
+  ga('set', 'anonymizeIp', true);
+  ga('send','pageview')
+</script>
+<script src="https://www.google-analytics.com/analytics.js" async></script>
+
+
+
+
+
+
+
+
+
+  </body>
+</html>

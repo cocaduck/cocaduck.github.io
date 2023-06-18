@@ -1,0 +1,429 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>LASSO與壓縮感知 - CocaDuck’s Blog</title>
+<meta name="description" content="LASSO和壓通趕知的圖象化概念">
+
+
+  <meta name="author" content="CocaDuck's Blog">
+  
+  <meta property="article:author" content="CocaDuck's Blog">
+  
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="CocaDuck's Blog">
+<meta property="og:title" content="LASSO與壓縮感知">
+<meta property="og:url" content="http://localhost:4000/%E6%95%B8%E5%AD%B8/math_00/">
+
+
+  <meta property="og:description" content="LASSO和壓通趕知的圖象化概念">
+
+
+
+
+
+
+
+  <meta property="article:published_time" content="2023-04-25T00:00:00+08:00">
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="http://localhost:4000/%E6%95%B8%E5%AD%B8/math_00/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "CocaDuck",
+      "url": "http://localhost:4000/",
+      "sameAs": ["https://twitter.com/","https://github.com/"]
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="CocaDuck's Blog Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+      inlineMath: [['$','$']]
+    }
+  });
+</script>
+<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+        <a class="site-title" href="/">
+          CocaDuck's Blog
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/categories/">Posts by Category</a>
+            </li><li class="masthead__menu-item">
+              <a href="/tags/">Post by Tag</a>
+            </li><li class="masthead__menu-item">
+              <a href="/search/">&#x1F50E;&#xFE0E;</a>
+            </li></ul>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+  
+
+
+
+
+
+
+
+<div class="page__hero--overlay"
+  style="background-color: #333; background-image: url('');"
+>
+  
+    <div class="wrapper">
+      <h1 id="page-title" class="page__title" itemprop="headline">
+        
+          LASSO與壓縮感知
+
+        
+      </h1>
+      
+        <p class="page__lead">LASSO和壓通趕知的圖象化概念
+</p>
+      
+      
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2023-04-25T00:00:00+08:00">April 25, 2023</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          less than 1 minute read
+        
+      </span>
+    
+  </p>
+
+
+      
+      
+    </div>
+  
+  
+</div>
+
+
+
+
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+  
+    
+      
+        <img src="/images/logo/math.jpg"
+             alt="Logo of Math and Coding Blog">
+      
+      
+      <p>在這個系列，我會分享我在日常生活中看到和聽到關於數學、演算法和編程相關的知識。我的文章可能需要一些背景知識，但我會盡可能地以清晰且易懂的方式呈現，讓讀者可以從中獲得啟發和新的想法。如果你對我的文章有任何問題或建議，歡迎隨時寄信給我，我非常樂意和你討論。期待能與你一同成長！</p>
+
+      
+
+<nav class="nav__list">
+  
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">Toggle menu</label>
+  <ul class="nav__items">
+    
+  </ul>
+</nav>
+
+    
+    
+  
+  </div>
+
+
+
+  <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="LASSO與壓縮感知">
+    <meta itemprop="description" content="LASSO和壓通趕知的圖象化概念">
+    <meta itemprop="datePublished" content="2023-04-25T00:00:00+08:00">
+    
+
+    <div class="page__inner-wrap">
+      
+
+      <section class="page__content e-content" itemprop="text">
+        
+          <aside class="sidebar__right sticky">
+            <nav class="toc">
+              <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> On this page</h4></header>
+              <ul class="toc__menu"><li><a href="#壓縮感知">壓縮感知</a></li><li><a href="#lasso-和壓縮感知的圖像化">LASSO 和壓縮感知的圖像化</a></li></ul>
+
+            </nav>
+          </aside>
+        
+        <p>今天同學問了一個最佳化的問題：
+給定三個點 $x_1=2,y_1=1,x_2=3,y_2=0,x_3=-2,y_3=2$
+求 $min_{\mathbf{w}}{\frac{1}{3}\sum_i(w_0+w_1x_i-y_i)^2+|\mathbf{w}|_1}$</p>
+
+<p>這讓我想到之前看過某個印度教授講述關於 <a href="https://en.wikipedia.org/wiki/Lasso_(statistics)">LASSO regression</a> 和壓縮感知 (<a href="https://en.wikipedia.org/wiki/Compressed_sensing">Compressive Sensing</a>) 的影片。下面的式子可以用來統一描述這些問題：
+$min_{\mathbf{w}}{f(\mathbf{w})}, |\mathbf{w}|_l&lt;=t$
+其中 $f(\mathbf{w})$ 通常假設是凸函數，$|\mathbf{w}|_l$ 是 $l$ norm，例如 $l_2$ 就是常見的歐式距離，$l_1$ 就是全部的絕對值之和，而 $l_0$ 的定義比較特別，是指說 $\mathbf{w}$ 有幾個非零的數值。</p>
+
+<h3 id="壓縮感知">壓縮感知</h3>
+<p>當我們使用 $l_0$ 時，上面的問題就會是一個壓縮感知的問題。常見的形式為 $min_{\mathbf{w}}{|\mathbf{A}\mathbf{w}-\mathbf{y}|^2}, |\mathbf{w}|_0&lt;=t$。$\mathbf{y}$ 通常描述的是要復原的訊號，$\mathbf{A}$ 是常見的所有基底訊號。一個應用是：$\mathbf{y}$ 描述腦內結構完整的3D結構圖，$\mathbf{A}$ 是所有核磁共振拍攝角度的圖片。如果我們要以最少的拍照次數來復原大腦的結構圖，這會對應到解一個最小化 $|\mathbf{w}|_0$ 的問題。除此之外，壓縮感知近年來也已經被大量的使用在各個領域。</p>
+
+<h3 id="lasso-和壓縮感知的圖像化">LASSO 和壓縮感知的圖像化</h3>
+<p>如果給定函數 $f(\mathbf{w})$ 的等高面，下圖呈現的是 $l$ norm 不同時地狀況。可以觀察到當使用 $l_0$ 時，這個限制邊界就會凹線，在這樣的情況下，這個問題就會變得非常的難(不是凸函數)。也因此，<a href="https://en.wikipedia.org/wiki/Basis_pursuit">Basic pursuit</a> 問題常會被作為一個壓縮感知的近似解(可以由這個解開始做搜尋並優化)。</p>
+
+<p><img src="/images/post_wireless/lnorm.png" alt="L-norm with objective function contour illustation" width="300" /></p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+  
+
+
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-tags" aria-hidden="true"></i> Tags: </strong>
+    <span itemprop="keywords">
+    
+      <a href="/tags/#lasso" class="page__taxonomy-item p-category" rel="tag">LASSO</a><span class="sep">, </span>
+    
+      <a href="/tags/#%E5%87%B8%E5%87%BD%E6%95%B8%E6%9C%80%E4%BD%B3%E5%8C%96" class="page__taxonomy-item p-category" rel="tag">凸函數最佳化</a><span class="sep">, </span>
+    
+      <a href="/tags/#%E5%A3%93%E7%B8%AE%E6%84%9F%E7%9F%A5" class="page__taxonomy-item p-category" rel="tag">壓縮感知</a>
+    
+    </span>
+  </p>
+
+
+
+
+  
+
+
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> Categories: </strong>
+    <span itemprop="keywords">
+    
+      <a href="/categories/#%E6%95%B8%E5%AD%B8" class="page__taxonomy-item p-category" rel="tag">數學</a>
+    
+    </span>
+  </p>
+
+
+        
+
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time class="dt-published" datetime="2023-04-25T00:00:00+08:00">April 25, 2023</time></p>
+
+      </footer>
+
+      <section class="page__share">
+  
+    <h4 class="page__share-title">Share on</h4>
+  
+
+  <a href="https://twitter.com/intent/tweet?text=LASSO%E8%88%87%E5%A3%93%E7%B8%AE%E6%84%9F%E7%9F%A5%20http%3A%2F%2Flocalhost%3A4000%2F%25E6%2595%25B8%25E5%25AD%25B8%2Fmath_00%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+
+  <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2F%25E6%2595%25B8%25E5%25AD%25B8%2Fmath_00%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Flocalhost%3A4000%2F%25E6%2595%25B8%25E5%25AD%25B8%2Fmath_00%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+</section>
+
+
+      
+
+
+  
+  	
+  	
+  	
+  	
+  	
+
+
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+    </div>
+
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+
+    
+      <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2023 CocaDuck. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+
+
+
+  <script>
+  window.ga=function(){ga.q.push(arguments)};ga.q=[];ga.l=+new Date;
+  ga('create','5528068876','auto');
+  ga('set', 'anonymizeIp', true);
+  ga('send','pageview')
+</script>
+<script src="https://www.google-analytics.com/analytics.js" async></script>
+
+
+
+
+
+
+
+
+
+  </body>
+</html>

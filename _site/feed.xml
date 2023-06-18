@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-06-18T18:29:53+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">CocaDuck’s Blog</title><subtitle>CocaDuck&apos;s Blog</subtitle><author><name>CocaDuck&apos;s Blog</name><email>cocaduck943@gmail.com</email></author><entry><title type="html">閱讀力最新技術大全 第三章、如何使用社群軟體蒐集知識</title><link href="http://localhost:4000/%E6%9B%B8%E7%B1%8D%E5%88%86%E4%BA%AB/reading-skill_04/" rel="alternate" type="text/html" title="閱讀力最新技術大全 第三章、如何使用社群軟體蒐集知識" /><published>2023-05-04T00:00:00+08:00</published><updated>2023-05-04T00:00:00+08:00</updated><id>http://localhost:4000/%E6%9B%B8%E7%B1%8D%E5%88%86%E4%BA%AB/reading-skill_04</id><content type="html" xml:base="http://localhost:4000/%E6%9B%B8%E7%B1%8D%E5%88%86%E4%BA%AB/reading-skill_04/"><![CDATA[<h3 id="五階段蒐集推特上的資訊">五階段蒐集推特上的資訊</h3>
+<p>作者認為社群網站是最重要的資訊來源，他分享了五階段蒐集法。</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>步驟</th>
+      <th>說明</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>檢視該篇文章在推特上如何被評論</td>
+      <td>批評多不見得不好</td>
+    </tr>
+    <tr>
+      <td>在評論中，有無該領域專家的意見</td>
+      <td>可用有無專業術語來初步判斷，可利用專業網站的資訊擷取專業術語為關鍵字</td>
+    </tr>
+    <tr>
+      <td>這些發表評論的人，背景為何</td>
+      <td>例如：謙虛的人可能會說，我是醫生但不是傳染病專家</td>
+    </tr>
+    <tr>
+      <td>發表評論的人使用的語言是否妥當</td>
+      <td>文字是否冷靜客觀，通常不會用斷定的口氣</td>
+    </tr>
+    <tr>
+      <td>將通過前 4 項的人納入追蹤</td>
+      <td>做為值得信賴的評論</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>如此一來，我們可以在不同的領域都建立值得信賴的名單，就可以快速的蒐集知識。</p>
+
+<h3 id="持續更動信賴名單">持續更動信賴名單</h3>
+<p>作者一再強調：<strong>原本風評很好的專家，也不表示我們就能一直信賴下去。我們不能只關注特定時間點，應該要順著時間軸做觀察這個人的好壞。</strong>即使是好人也有可能變為壞人，而好人也可能會變為好人。我覺得這點是很重要的，很多人常因為過度信任一個人而被牽著鼻子走。不管在任何時間點，我們都需要有更多的資料來進行客觀的判斷。</p>]]></content><author><name>CocaDuck&apos;s Blog</name><email>cocaduck943@gmail.com</email></author><category term="書籍分享" /><category term="閱讀力最新技術大全" /><summary type="html"><![CDATA[使用推特五步驟蒐尋專業知識]]></summary></entry><entry><title type="html">閱讀力最新技術大全 第二章、如何有效的蒐集好的資訊</title><link href="http://localhost:4000/%E6%9B%B8%E7%B1%8D%E5%88%86%E4%BA%AB/reading-skill_03/" rel="alternate" type="text/html" title="閱讀力最新技術大全 第二章、如何有效的蒐集好的資訊" /><published>2023-05-03T00:00:00+08:00</published><updated>2023-05-03T00:00:00+08:00</updated><id>http://localhost:4000/%E6%9B%B8%E7%B1%8D%E5%88%86%E4%BA%AB/reading-skill_03</id><content type="html" xml:base="http://localhost:4000/%E6%9B%B8%E7%B1%8D%E5%88%86%E4%BA%AB/reading-skill_03/"><![CDATA[<p>由於我們日常生活被動接收的資訊量很大，而且好的資訊得成分很少。因此，我們需要自己主動蒐集的資訊。作者在這個章節中分享了幾個他常用的技巧。</p>
+
+<h3 id="透過-rss-reader-自己蒐集資訊">透過 RSS Reader 自己蒐集資訊</h3>
+<p>RSS reader 是一個可以單純蒐集網頁中的資訊的閱讀軟體，它會把不必要的廣告都去掉。例如下圖是我嘗試使用 feedly 這個軟體的結果，我選擇讀取 MIT technology review 和 daily search 的 RSS，這個 reader 就會過濾廣告後把結果顯示在這邊。</p>
+
+<p><img src="/images/post_read/feedly.png" alt="sum filter 15" width="700" /></p>
+
+<p>額外的功能有：</p>
+<ol>
+  <li>可以把不同的網站分到不同類別</li>
+  <li>可以變更卡片模式 (上圖的例子)、純標題模式 (只有標題)</li>
+</ol>
+
+<p>由於我試用過 Linkedin 這種需要登入的帳號都無法收入到 RSS reader 中，而平常我最常用為蒐集資料的就是 Linkedin，因此我並沒有繼續使用。如果有讀者熟悉或研究出來可以寄信和我討論。</p>
+
+<p>另外，我覺得一個好的做法是訂閱你想看的雜誌內容，這樣他就會定期寄信到你的信箱。例如，我有訂閱 MIT Technology review 那他就會每天寄信到我的信箱 (下圖)。我覺得這個功能對於一般人來說就很足夠了。</p>
+
+<p><img src="/images/post_read/subscribe.png" alt="sum filter 15" width="700" /></p>
+
+<h2 id="把文章分成三個類別">把文章分成三個類別</h2>
+<p>作者根據自己經驗將媒體分為三級 (下表)，並根據時間來分配需要閱讀的內容。</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">分級</th>
+      <th style="text-align: center">動作</th>
+      <th style="text-align: center">作者提供的例子</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">一</td>
+      <td style="text-align: center">只要看標題</td>
+      <td style="text-align: center">策展、政治、經濟、社會、商業、媒體、個人部落格、科技</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">二</td>
+      <td style="text-align: center">忙就可以跳過</td>
+      <td style="text-align: center">新聞、英語、生活、電影、書籍</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">三</td>
+      <td style="text-align: center">有空再來看</td>
+      <td style="text-align: center">工具、流行話題、音樂</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="使用付費媒體">使用付費媒體</h3>
+<p>這邊作者提到，我們應該注意<strong>付費的軟體並不見得有比較高的質量</strong>，還是要判斷該媒體</p>
+
+<ol>
+  <li>是否擁有專家的知識</li>
+  <li>是否具有國內沒有的視角 (例如：能幫到讀者的式英文媒體推得中文版，例如 MIT technology review，quartz)</li>
+  <li>是否有深度報導和分析 (多元觀點)</li>
+</ol>
+
+<h3 id="利用社群網站">利用社群網站</h3>
+<p>由於社群網站的內容較多，這部分的內容會移動到下個章節。</p>]]></content><author><name>CocaDuck&apos;s Blog</name><email>cocaduck943@gmail.com</email></author><category term="書籍分享" /><category term="閱讀力最新技術大全" /><summary type="html"><![CDATA[使用 Feedly 做為 RSS reader，以及付費媒體的使用注意事項。]]></summary></entry><entry><title type="html">T 值估計</title><link href="http://localhost:4000/ic%E8%A8%AD%E8%A8%88/ICD_01/" rel="alternate" type="text/html" title="T 值估計" /><published>2023-05-02T00:00:00+08:00</published><updated>2023-05-02T00:00:00+08:00</updated><id>http://localhost:4000/ic%E8%A8%AD%E8%A8%88/ICD_01</id><content type="html" xml:base="http://localhost:4000/ic%E8%A8%AD%E8%A8%88/ICD_01/"><![CDATA[<p>這邊文章會介紹 T 值的估計。一般 T 值表示從開始輸入訊號的時間到運算結果全部輸出所需的總時長，我們將它記為 $t_{all}$。而這個時間又可以被表示為 $t_{all}=n\times{}t_{period}$，其中 $n$ 就是所需要的總 cycle 數，而 $t_{period}$ 是一個週期的長度。大部分的人對於 $n$ 的估計相當熟悉，也可以設計好的方法來優化它。然而，大部分的人會忽略了 $t_{period}$ 的重要性。</p>
+
+<h3 id="優化總週期數-n-與-t_period">優化總週期數 $n$ 與 $t_{period}$</h3>
+<p>由於我們都會需要時間讀取資料，而這段時間又佔大部分的時間，因此對於優化 datapath 上的周期數通常就沒有那麼重要。例如，現在要讀取 500 個資料點，你需要對每 15 個點的總和輸出。這種情況最簡單的就是做一個有 15 個數值的加法器 (如下圖)。</p>
+
+<p><img src="/images/post_ICD/15filter.png" alt="sum filter 15" width="300" /></p>
+
+<p>然而，如果我們可以做 pipeline 成下面的電路，輸出時間只多了一個 cycle，這對於 $n$ 的影響的微乎其微。但是，在這個架構下，我們的 $t_{period}$ 就會因為 critical path 變短而變小。整體而言 $t_{all}$ 就能有很可觀的減少。</p>
+
+<p><img src="/images/post_ICD/15filter_pipe.png" alt="pipelined sum filter 15" width="300" /></p>
+
+<p>當然，在這個架構中，我們因為以下原因需要付出額外的 A 值做為代價</p>
+
+<ol>
+  <li>需要使用額外的 register</li>
+  <li>加法器會由於被 register 隔開，而無法被合成到更好的面積</li>
+</ol>
+
+<p>如果評量標準是 AT 值的情況下並不見得划算。因此我們會需要更深入了解 <a href="/ic設計/ICD_02">A 值估計</a>，才有辦法在看到問題的當下想出最好的架構。在 <a href="/ic設計/ICD_06">2022 IC競賽決賽實作</a>的文章中，我們將會看到 $t_{period}$ 會多大的影響我們的 AT 值。</p>]]></content><author><name>CocaDuck&apos;s Blog</name><email>cocaduck943@gmail.com</email></author><category term="IC設計" /><category term="IC設計" /><category term="IC競賽" /><category term="運行時間" /><category term="操作頻率" /><summary type="html"><![CDATA[硬體架構之總時間、操作頻率估計]]></summary></entry><entry><title type="html">閱讀力最新技術大全 第一章、選擇該讀的內容</title><link href="http://localhost:4000/%E6%9B%B8%E7%B1%8D%E5%88%86%E4%BA%AB/reading-skill_02/" rel="alternate" type="text/html" title="閱讀力最新技術大全 第一章、選擇該讀的內容" /><published>2023-04-30T00:00:00+08:00</published><updated>2023-04-30T00:00:00+08:00</updated><id>http://localhost:4000/%E6%9B%B8%E7%B1%8D%E5%88%86%E4%BA%AB/reading-skill_02</id><content type="html" xml:base="http://localhost:4000/%E6%9B%B8%E7%B1%8D%E5%88%86%E4%BA%AB/reading-skill_02/"><![CDATA[<p>作者在本章節的寫法是逐點列舉關於閱讀內容的小知識。由於我覺得這些小知識沒有很好的整理，並不適合閱讀，這邊把書中的內容做揀選和整理成以下兩點。</p>
+
+<h2 id="判別偏頗媒體">判別偏頗媒體</h2>
+<p>以下幾個方法可以判斷觀點偏頗的媒體</p>
+<ol>
+  <li>對事件的描述過於簡單，喜歡把話說死</li>
+  <li>把某人當成壞人，煽動對立情緒</li>
+  <li>注意文章裡是否出現，需要留心的關鍵字 (真實/真面目/懦弱/撒謊/假面具)</li>
+  <li>新聞來源不明</li>
+  <li>文章裡出現”擺明就是陰謀論”的內容</li>
+</ol>
+
+<h2 id="遠離資訊斷裂">遠離資訊斷裂</h2>
+<p>由於現在媒體上充斥著大量資訊，通常我們會看到的資訊都是由在社群網站上所建立的人脈網路有關，演算法也會根據我們所看到的內容推薦，這就會導致<strong>資訊斷裂</strong>。並且<strong>另類事實</strong> (<a href="https://en.wikipedia.org/wiki/Alternative_facts#:~:text=Alternative%20facts%3F%20...,to%20make%20her%20look%20ridiculous.">alternative facts</a>)、<strong>後真相</strong> (<a href="https://en.wikipedia.org/wiki/Post-truth">post-truth</a>) 和<strong>回聲室效應</strong>正在不斷的擴大資訊的斷裂。</p>
+
+<ol>
+  <li>另類事實的起源是川普在選統統時的演說，說謊有時候也是權衡之際，這就是一種另類事實。</li>
+  <li>後真相是指，在一個輿論形成時，訴諸情或個人信仰的言論，有時往往比客觀事實更具有影響力。真相到底為何可能易點都不正要，只要符合自己的向養的言論都好。</li>
+  <li>回聲室效應是指當我們在一個相同理念或信仰的群體時，會更傾向於跟著別人唱和，而很難放棄原本的觀點。我們應該要學著離開環境，用冷靜、客觀的態度來吸收多元資訊。</li>
+</ol>]]></content><author><name>CocaDuck&apos;s Blog</name><email>cocaduck943@gmail.com</email></author><category term="書籍分享" /><category term="閱讀力最新技術大全" /><summary type="html"><![CDATA[內容選擇，遠離資訊斷裂、另類事實與後真相。]]></summary></entry><entry><title type="html">關於最優預編碼</title><link href="http://localhost:4000/%E7%84%A1%E7%B7%9A%E9%80%9A%E8%A8%8A/wireless_05/" rel="alternate" type="text/html" title="關於最優預編碼" /><published>2023-04-30T00:00:00+08:00</published><updated>2023-04-30T00:00:00+08:00</updated><id>http://localhost:4000/%E7%84%A1%E7%B7%9A%E9%80%9A%E8%A8%8A/wireless_05</id><content type="html" xml:base="http://localhost:4000/%E7%84%A1%E7%B7%9A%E9%80%9A%E8%A8%8A/wireless_05/"><![CDATA[<p>首先說明最優預編碼是我自己創造的名詞，一般來說我們會稱作奇異值分解預編碼 (SVD-based Precoding)。我們在<a href="/無線通訊/wireless_03">通道特性</a>的文章中有提過關於條件數和奇異值的概念，這篇文章會做更深入的解釋，並解釋她的物理意義。</p>
+
+<h2 id="奇異值分解">奇異值分解</h2>
+<p>奇異值分解的定義是，給定 $n\times{}n$ 的矩陣 $\mathbf{H}$，她的 SVD 分解是 $\mathbf{H}=\mathbf{U}\mathbf{S}\mathbf{V}^H$，其中 $\mathbf{U}$ 和 $\mathbf{V}$ 都具有正交矩陣的特性 (也就是該矩陣的列向量彼此之間是正交的)，而 $\mathbf{S}$ 是一個對角矩陣。</p>
+
+<p>接下來說明什麼是正交。用一個 $2\times{}2$ 的矩陣 $\mathbf{H}=[\mathbf{h}_1\ \mathbf{h}_2]$ 為例。正交就表示 $\mathbf{h}_2^H\mathbf{h}_1$ 都是 0。如此一來如果我們要傳輸兩個訊號 $s_1$ 和 $s_2$，接收到的訊號會是 $r=\mathbf{h}_1s_1+\mathbf{h}_2s_2$ ，她雖然混和著兩個訊號，但由於兩個通道間的正交特性，這兩個訊號可以被很好的分別開來。例如要取得 $s_1$ 只需要計算 $\mathbf{h_1}^Hr$ 即可。這邊聽起來就是以數學的觀點去描述我們整麼把一個通道經過處理，使得所有的通道之間彼此都是正交的。接下來，我們介紹她背後的物理意義。</p>
+
+<h2 id="奇異值分解與預編碼的關聯">奇異值分解與預編碼的關聯</h2>
+<h3 id="陣列響應-array-response">陣列響應 (array response)</h3>
+<p>首先，我想先介紹陣列響應的概念。對於一個有 $n$ 跟天線的收發器來說，我們會定義她的基本陣列響應：$\mathbf{a}(\theta)=[1\ e^{-j\theta}\ e^{-2j\theta}\ …\ e^{-(n-1)j\theta}]$。基本陣列響應是一個 $\theta$ 的函數，她的意義就是這個陣列訊號輻射的方向。以下圖為例，紅色和藍色兩個不同的響應分別瞄準了 40 和 120 度的傳輸方向。有興趣可以到 <a href="https://github.com/cocaduck/wireless/blob/main/beam.m">beam.m</a> 閱讀產生下圖的程式碼。</p>
+
+<p><img src="/images/post_wireless/beam.png" alt="beam pattern illustration" width="400" /></p>
+
+<p>當我們仔細去觀察這個響應時，會發現陣列響應在某些部分的訊號很弱。這時候，如果我們把另外一個訊號從這個角度打出，這兩個訊號的相關性就會很低，也會接近正交。這部分我會在<a href="/無線通訊/wireless_11">陣列的波型成型</a>中在仔細的介紹。</p>
+
+<h3 id="奇異向量-singular-vector">奇異向量 (singular vector)</h3>
+<p>現在我們有一個概念是，一個向量對應了天線的某種響應。如 $\mathbf{a}(\theta)$ 就對應了基本陣列響應。當我們來看分解完的 $\mathbf{U}$ 和 $\mathbf{V}$ 矩陣時，他們內部的所有通道 $\mathbf{u}_i$ 和 $\mathbf{v}_i$ 事實上也是一個頻率的響應而已。但當我們在算分解時，常常沒有明白這個向量所代表的意義所在。在<a href="/無線通訊/wireless_07">關於毫米波預編碼</a>文章中，我會介紹毫米波的通道。在那邊各位將可以發現毫米波段下的通道組成會更趨近於基本頻率響應。</p>]]></content><author><name>CocaDuck&apos;s Blog</name><email>cocaduck943@gmail.com</email></author><category term="無線通訊" /><category term="最優預編碼" /><category term="奇異值分解" /><summary type="html"><![CDATA[這篇文章將會介紹奇異值分解預編碼與最佳預編碼]]></summary></entry><entry><title type="html">IC設計: Blog簡介</title><link href="http://localhost:4000/ic%E8%A8%AD%E8%A8%88/ICD_00/" rel="alternate" type="text/html" title="IC設計: Blog簡介" /><published>2023-04-29T00:00:00+08:00</published><updated>2023-04-29T00:00:00+08:00</updated><id>http://localhost:4000/ic%E8%A8%AD%E8%A8%88/ICD_00</id><content type="html" xml:base="http://localhost:4000/ic%E8%A8%AD%E8%A8%88/ICD_00/"><![CDATA[<p>這篇文章將會簡介當看到一個硬體 spec 時，怎麼去設計在這個條件下進行最優化的 RTL。我會以之前參加 TSRI 舉辦的 <a href="https://www.iccontest2023.com.tw/home">IC 競賽</a>為例進行說明。後續我也規劃分享一些進階的硬體設計知識。</p>
+
+<h2 id="如何優化硬體的-ppa">如何優化硬體的 PPA</h2>
+<p>一般常見的評分標準會有(時間、面積、功耗分別簡稱為 T、A、P 值)：</p>
+<ol>
+  <li>特定 T 值下，最小化 A 值</li>
+  <li>特定 T 值下，最小化 AT 值</li>
+  <li>特定 A 值下，最小化 P 值</li>
+</ol>
+
+<p>另外還有很多種不同的評分標準。對於這些不同的標準，他可以考驗我們對於硬體的認知。不同的評分標準會對應到架構很不同的設計，我們必須很了解時間、功耗、面積 (Performance, Power, Area; PPA) 三個面向上的取捨。</p>
+
+<ol>
+  <li><a href="/ic設計/ICD_04">特定 T 下，最優化 A </a>的文章中特別介紹：特定 T 下，A 最小</li>
+  <li><a href="/ic設計/ICD_05">特定 T 下，最優化 AT </a>的文章中特別介紹：特定 T 下，AT 最小</li>
+</ol>
+
+<h2 id="如何在設計前估算ppa">如何在設計前估算PPA？</h2>
+<p>在了解架構的優化會因為評定標準有很大的影響後，我們應該要知道怎麼有效率的在沒有設計前估計 PPA 的數值。依據我的觀察，有很大一部分人的做法是寫完 RTL 並合成後才知道需要多少面積，甚至不了解除法、乘法、加法、暫存器、選擇器之間的面積大小關係。</p>
+
+<ol>
+  <li><a href="/ic設計/ICD_01">T 值估計</a>的文章中特別介紹如何估計一個設計的 T 值</li>
+  <li><a href="/ic設計/ICD_02">A 值估計</a>的文章中特別介紹如何估計一個設計的 A 值</li>
+  <li><a href="/ic設計/ICD_03">P 值估計</a>的文章中特別介紹如何估計一個設計的 P 值</li>
+</ol>
+
+<h2 id="實例">實例</h2>
+<p>再介紹完基本技巧後，我會用幾題 IC 競賽的題目，分析我過往的設計想法。這或許並不是最優的解法，但對於各位應該會有所幫助。</p>]]></content><author><name>CocaDuck&apos;s Blog</name><email>cocaduck943@gmail.com</email></author><category term="IC設計" /><category term="IC設計" /><category term="IC競賽" /><category term="架構" /><category term="架構優化" /><summary type="html"><![CDATA[IC競賽與架構優化]]></summary></entry><entry><title type="html">關於預編碼 (ZF、MRT、RZF)</title><link href="http://localhost:4000/%E7%84%A1%E7%B7%9A%E9%80%9A%E8%A8%8A/wireless_04/" rel="alternate" type="text/html" title="關於預編碼 (ZF、MRT、RZF)" /><published>2023-04-28T00:00:00+08:00</published><updated>2023-04-28T00:00:00+08:00</updated><id>http://localhost:4000/%E7%84%A1%E7%B7%9A%E9%80%9A%E8%A8%8A/wireless_04</id><content type="html" xml:base="http://localhost:4000/%E7%84%A1%E7%B7%9A%E9%80%9A%E8%A8%8A/wireless_04/"><![CDATA[<p>在<a href="/無線通訊/wireless_02">處理通道造成的干擾</a>中我們有介紹過預編碼 (Precoding) 是在 TX 端運行的演算法，目的在於考量傳輸過程會造成的干擾下，對訊號進行預先處理。通常這樣的技術會用在基地台 (BS) 端。</p>
+
+<p>以數學模型來描述會是，給定傳輸訊號 $\mathbf{x}$，和已知的通道干擾 $\mathbf{H}$，我們希望找到一個預先處理方式 $\mathbf{F}$，使得接收訊號 $\mathbf{y}=\mathbf{H}(\mathbf{F}\mathbf{x})+\mathbf{n}$ 可以盡可能的接近 $\mathbf{x}$。</p>
+
+<h2 id="常見技術-zfmrtrzf">常見技術 (ZF、MRT、RZF)</h2>
+<p>這邊要介紹的技術包括 zero-forcing (ZF)、maximum ratio transmission (MRT)、regularied zero-forcing (RZF)。我們在之後的<a href="/無線通訊/wireless_10">建設性干擾預編碼</a>文章中也會介紹 2021 年較受到關注的 constructive interference precoding (CIP)，以及 vector perturbation (VP) 和 tomlison-tarashima precoding (THP) 這些比較複雜的預編碼技術。這些技術背後的概念都大不相同，下面我們會依序進行介紹。</p>
+
+<h3 id="zf-預編碼">ZF 預編碼</h3>
+<p>ZF 的概念很簡單，就是把 $\mathbf{F}$ 取為 $H^{H}(HH^H)^{-1}$ 這個 <a href="https://zh.wikipedia.org/zh-tw/%E5%B9%BF%E4%B9%89%E9%80%86%E9%98%B5">pseudo inverse</a>矩陣。如此一來就有 $\mathbf{y}=\mathbf{x}+\mathbf{n}$。如果當雜訊很小時，ZF會是一個效能很好的技術，但當我們利用訊號對干擾與雜訊比 (signal-to-interference-and-noise ratio; <a href="https://en.wikipedia.org/wiki/Signal-to-interference-plus-noise_ratio">SINR</a>) 這個量來進行分析時就會發現他的缺點。對於第 $k$ 個使用者來說，他的 SINR 可以被表示為 $SINR_k=\frac{&lt;\mathbf{h}k,\mathbf{f}k&gt;^2}{(\sigma{}k)^2+\sum{}{i\neq{}k}{&lt;\mathbf{h}k,\mathbf{f}i}&gt;^2}$，其中的 $&lt;,&gt;^2$ 用來表示兩個向量的內積。在這個定義中 $&lt;\mathbf{h}k,\mathbf{f}k&gt;^2$、$(\sigma{}k)^2$ 和 $\sum{}_{i\neq{}k}{&lt;\mathbf{h}k,\mathbf{f}i}&gt;^2$ 分別就代表了接收訊號強度(下圖 S)、雜訊強度和總干擾訊號強度(下圖 I)。由於干擾對於接收者來說等同於雜訊，因此SINR能有效的表示訊號和其餘雜訊的比例，進而可以描述一個系統中的預編碼效能。</p>
+
+<p><img src="/images/post_wireless/SINR.png" alt="Signal-to-interference-plus-noise_ratio" width="300" /></p>
+
+<p>對於ZF預編碼來說，他的概念是消除所有形式的干擾，也就是 $\sum{}{i\neq{}k}{&lt;\mathbf{h}k,\mathbf{f}i}&gt;^2=0$。這使得 $SINRk=\frac{&lt;\mathbf{h}k,\mathbf{f}k&gt;^2}{\sigma{}_k^2}$。然而對於病態通道 (ill-conditioned channel) 來說，ZF 在降低干擾訊號的同時，也會大幅降低了傳輸訊號的能量，因此對於 SINR 來說並不見得會有提升。病態通道是指<a href="/無線通訊/wireless_03">通道特性</a>文章中提到的條件數數值很大的情況，在這樣的情況下最強和最弱的通道差異會變得很明顯。</p>
+
+<h3 id="mrt預編碼">MRT預編碼</h3>
+<p>MRT預編碼技術採用 $\mathbf{F}=\mathbf{H}$。這樣的技術可以最大化接收訊號強度，然而他沒有對於干擾訊號做任何處理，因此預編碼效能很差。但 MRT 也有他的優點，也就是運算複雜度比起其他技術低很多。他只需要 $O(n^2)$ 複雜度的矩陣乘法，而其他技術至少都需要 $O(n^3)$ 複雜度的反矩陣運算。除此之外，反矩陣運算對於硬體設計並不友善，這源自於他的運算具有高度的相關性，硬體並不能有效的平行處理以加速運算。</p>
+
+<h3 id="rzf預編碼">RZF預編碼</h3>
+<p>根據 SINR 的定義，我們可以發現最大化 SINR 應該可以得到最好的預編碼效能，這樣的技術就被稱為 RZF 預編碼(也稱作 minimum mean square, MMSE)。RZF 使用 $\mathbf{F}=H^{H}(HH^H+m\frac{\mathbf{I_m}}{\sigma^2})^{-1}$ 以達到這樣的效果。詳細的推導和更多資料可以閱讀 <a href="https://ieeexplore.ieee.org/document/1391204">C.B. Peel, TComm’2005</a> 論文。</p>]]></content><author><name>CocaDuck&apos;s Blog</name><email>cocaduck943@gmail.com</email></author><category term="無線通訊" /><category term="預編碼" /><category term="ZF" /><category term="MRT" /><category term="RZF" /><summary type="html"><![CDATA[本篇文章將會簡介 ZF、MRT、RZF預編碼]]></summary></entry><entry><title type="html">閱讀力最新技術大全 序章、閱讀的目的</title><link href="http://localhost:4000/%E6%9B%B8%E7%B1%8D%E5%88%86%E4%BA%AB/reading-skill_01/" rel="alternate" type="text/html" title="閱讀力最新技術大全 序章、閱讀的目的" /><published>2023-04-28T00:00:00+08:00</published><updated>2023-04-28T00:00:00+08:00</updated><id>http://localhost:4000/%E6%9B%B8%E7%B1%8D%E5%88%86%E4%BA%AB/reading-skill_01</id><content type="html" xml:base="http://localhost:4000/%E6%9B%B8%E7%B1%8D%E5%88%86%E4%BA%AB/reading-skill_01/"><![CDATA[<p>序章提出了五大前提，分別是
+(1) 媒體的種類
+(2) 獲取觀點的三步驟
+(3) 閱讀的目的
+(4) 如何由閱讀獲取知識
+(5) 何時何地適合閱讀
+這可以看做是整本書的大綱，在後面的章節中作者也有更深入的解釋。</p>
+
+<h2 id="媒體的種類">媒體的種類</h2>
+<p>關於媒體分類，作者依據兩個面向：(1) 水平或垂直媒體：前者代表淺而廣的報導、後者則有深入的探討 (2) 中立、偏頗。分別劃分為4類媒體：</p>
+
+<table>
+  <thead>
+    <tr>
+      <th> </th>
+      <th>水平</th>
+      <th>垂直</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>中立</td>
+      <td>A 類：新聞APP、通信社</td>
+      <td>B 類：部落格、專業雜誌</td>
+    </tr>
+    <tr>
+      <td>偏頗</td>
+      <td>C 類：新聞報導、談話性節目</td>
+      <td>D 類：陰謀論</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="獲得觀點的三步驟">獲得觀點的三步驟</h2>
+<ol>
+  <li><strong>利用 A 類媒體，獲得新聞的輪廓</strong>：以水平媒體快速的掃描過一天中所有的新聞。後面章節作者也有提到一些技巧(如使用 RSS 閱讀器等)，來強化我們對於各個新聞標題的中立立場。</li>
+  <li><strong>利用 B 類媒體，獲得不同的觀點</strong>：從 A 類媒體挑選出來感興趣的文章，我們可以在 B 類媒體上搜尋相關的資源閱讀，這可以獲得更深入的了解。</li>
+  <li><strong>獲得新聞的全貌</strong>：當我們有一個深入了解後，可以看 C 類媒體，進而掌握多元角度。</li>
+</ol>
+
+<h2 id="閱讀的目的">閱讀的目的</h2>
+<p><strong>閱讀的目的就是掌握多元觀點</strong>。一件事情絕對不會只有一個面向、一個觀點，如果我們越能夠增加我們的觀點數量、獲得不同的新觀點、那麼就能夠增進自己對於理解這件事的廣度與深度。</p>
+
+<p>這讓我想到馬薇薇在奇葩說<a href="https://www.iq.com/play/%E5%A5%87%E8%91%A9%E8%AA%AA%E7%AC%AC1%E5%AD%A3-2015-2-15-19rrkcbp3o?lang=zh_tw">第一季半決賽</a>所講過的話，<strong>比較難的那個持方，不符合社會主流價值觀的持方，他存在的意義是在讓你知道，這個世界的少數派有他的不得已。交鋒可以帶來多元</strong>。我想這也是辯論的目的，
+只有對知保持謙卑，人們才有可能容得下多元的觀點。</p>
+
+<h2 id="如何由閱讀獲取知識">如何由閱讀獲取知識</h2>
+<p>要或取多元觀點，我們要把知識化為知肉。知肉作者發明的字眼，我認為可以把他想成世界觀。關於世界觀，我覺得 <a href="https://www.youtube.com/@xiao_lin_shuo">Lindsay</a> 在她的影片<a href="https://youtu.be/EViSmcCPK5g">我是如何快速學習一個領域的</a>中提到的點更為具體。影片中表明我們應該把<strong>知識結構化</strong>。我個人非常認同這點，這也是我一直以來的思想觀。但我也發現這世界上有一大部分人是以經驗主義為導向，這些人就很難做到把知識結構化。我認為如果有這種思想觀的人，應該可以嘗試適合自己的作法來歸納知識。</p>
+
+<h2 id="閱讀的時間與地點">閱讀的時間與地點</h2>
+<p>作者認為現代人沒有集中力，要運用散漫力。重點在於接受散漫力，不要強迫自己集中，這反而會難以集中
+悠哉的做事情。可以想像，如看影片、看實況就通常可以維持，原因在於要讓自己處於一個舒服的狀態。</p>
+
+<p>這讓我想到最近在讀冥想相關的書中的描述。他提到冥想的目的在於達到頂空的狀態。頂空可以想像成藍天，你的思緒就是烏雲。你越想要讓烏雲散去，他就越不可能散去；你越要想要專心，也就越不可能做到。這部分我會在之後的文章中討論。另外，我之後也會分享習慣養成的書籍。我會分享很多方法來幫助你建立習慣，如此一來就不需要作者提到的：使用思緒散漫的時間來蒐集知識。</p>]]></content><author><name>CocaDuck&apos;s Blog</name><email>cocaduck943@gmail.com</email></author><category term="書籍分享" /><category term="閱讀力最新技術大全" /><summary type="html"><![CDATA[媒體分類與閱讀的目的。]]></summary></entry><entry><title type="html">LASSO與壓縮感知</title><link href="http://localhost:4000/%E6%95%B8%E5%AD%B8/math_00/" rel="alternate" type="text/html" title="LASSO與壓縮感知" /><published>2023-04-25T00:00:00+08:00</published><updated>2023-04-25T00:00:00+08:00</updated><id>http://localhost:4000/%E6%95%B8%E5%AD%B8/math_00</id><content type="html" xml:base="http://localhost:4000/%E6%95%B8%E5%AD%B8/math_00/"><![CDATA[<p>今天同學問了一個最佳化的問題：
+給定三個點 $x_1=2,y_1=1,x_2=3,y_2=0,x_3=-2,y_3=2$
+求 $min_{\mathbf{w}}{\frac{1}{3}\sum_i(w_0+w_1x_i-y_i)^2+|\mathbf{w}|_1}$</p>
+
+<p>這讓我想到之前看過某個印度教授講述關於 <a href="https://en.wikipedia.org/wiki/Lasso_(statistics)">LASSO regression</a> 和壓縮感知 (<a href="https://en.wikipedia.org/wiki/Compressed_sensing">Compressive Sensing</a>) 的影片。下面的式子可以用來統一描述這些問題：
+$min_{\mathbf{w}}{f(\mathbf{w})}, |\mathbf{w}|_l&lt;=t$
+其中 $f(\mathbf{w})$ 通常假設是凸函數，$|\mathbf{w}|_l$ 是 $l$ norm，例如 $l_2$ 就是常見的歐式距離，$l_1$ 就是全部的絕對值之和，而 $l_0$ 的定義比較特別，是指說 $\mathbf{w}$ 有幾個非零的數值。</p>
+
+<h3 id="壓縮感知">壓縮感知</h3>
+<p>當我們使用 $l_0$ 時，上面的問題就會是一個壓縮感知的問題。常見的形式為 $min_{\mathbf{w}}{|\mathbf{A}\mathbf{w}-\mathbf{y}|^2}, |\mathbf{w}|_0&lt;=t$。$\mathbf{y}$ 通常描述的是要復原的訊號，$\mathbf{A}$ 是常見的所有基底訊號。一個應用是：$\mathbf{y}$ 描述腦內結構完整的3D結構圖，$\mathbf{A}$ 是所有核磁共振拍攝角度的圖片。如果我們要以最少的拍照次數來復原大腦的結構圖，這會對應到解一個最小化 $|\mathbf{w}|_0$ 的問題。除此之外，壓縮感知近年來也已經被大量的使用在各個領域。</p>
+
+<h3 id="lasso-和壓縮感知的圖像化">LASSO 和壓縮感知的圖像化</h3>
+<p>如果給定函數 $f(\mathbf{w})$ 的等高面，下圖呈現的是 $l$ norm 不同時地狀況。可以觀察到當使用 $l_0$ 時，這個限制邊界就會凹線，在這樣的情況下，這個問題就會變得非常的難(不是凸函數)。也因此，<a href="https://en.wikipedia.org/wiki/Basis_pursuit">Basic pursuit</a> 問題常會被作為一個壓縮感知的近似解(可以由這個解開始做搜尋並優化)。</p>
+
+<p><img src="/images/post_wireless/lnorm.png" alt="L-norm with objective function contour illustation" width="300" /></p>]]></content><author><name>CocaDuck&apos;s Blog</name><email>cocaduck943@gmail.com</email></author><category term="數學" /><category term="LASSO" /><category term="壓縮感知" /><category term="凸函數最佳化" /><summary type="html"><![CDATA[LASSO和壓通趕知的圖象化概念]]></summary></entry><entry><title type="html">閱讀力最新技術大全 書本簡介與前言</title><link href="http://localhost:4000/%E6%9B%B8%E7%B1%8D%E5%88%86%E4%BA%AB/reading-skill_00/" rel="alternate" type="text/html" title="閱讀力最新技術大全 書本簡介與前言" /><published>2023-04-19T00:00:00+08:00</published><updated>2023-04-19T00:00:00+08:00</updated><id>http://localhost:4000/%E6%9B%B8%E7%B1%8D%E5%88%86%E4%BA%AB/reading-skill_00</id><content type="html" xml:base="http://localhost:4000/%E6%9B%B8%E7%B1%8D%E5%88%86%E4%BA%AB/reading-skill_00/"><![CDATA[<h2 id="書本簡介與前言">書本簡介與前言</h2>
+<p>先說我會讀這本書的原因。我是很喜歡收集新知的人，我一天會花很多時間在看各種媒體，這包括了 facebook, NY times, Linkedin, IG, Twitter, Dcard, MIT technology review 以及種種不同的媒體。有時候不知道要做什麼的時候，我就會拿出手機滑一下，不知不覺就看了很久。當我在書局看到這本書時，我突然想到是否有一些高效率的閱讀方法，讓我可以節省這些不必要的時間，卻能達到同樣的閱讀效果。</p>
+
+<p>這本書的作者是佐佐木俊尚先生，他是一個記者。他每天會利用零碎時間，掃過一千篇新聞報導，最後再把他認為最重要的十篇文章在<a href="https://twitter.com/sasakitoshinao?lang=zh-Hant">推特上</a>和大家分享，並且已經持續了十年以上。他希望可以將它所使用的方法整理在這本書中給大家參考。</p>
+
+<p>我們通常認為要專注才能夠閱讀，然而在這個資訊炸的時代專注是非常困難的。因此，作者認為應該以另一種不同的方式來進行閱讀，也就是利用零碎的時間來快速的收集資訊。此外，他也提供了建議的資料儲存的方式，可以有效的把不同特性的資訊分別儲存在電腦和大腦中。這可以增加大腦中靈光一閃的機率。關於資料儲存這方面我非常認同，這也是我自己一直以來實行的方式。我會把概念和結構化的資訊儲存在大腦，並把詳細的文件都整理在電腦中。</p>
+
+<p>這本書的章節分別是：
+序章：基礎認識，現代知識生產的五大前提</p>
+<ol>
+  <li>找出陷阱，選擇該讀的內容</li>
+  <li>網路上該看什麼</li>
+  <li>如何利用社群網站</li>
+  <li>如何閱讀、整理與保存選中的文章</li>
+  <li>要讀什麼書，該怎麼讀</li>
+  <li>分別用兩種保存方式，是活用知識和資訊的關鍵</li>
+  <li>藉由二刀流，讓大腦保持乾淨狀態</li>
+  <li>活用散漫力，達成多任務處理的秘訣</li>
+</ol>]]></content><author><name>CocaDuck&apos;s Blog</name><email>cocaduck943@gmail.com</email></author><category term="書籍分享" /><category term="閱讀力最新技術大全" /><summary type="html"><![CDATA[閱讀力最新技術大全之書籍簡介]]></summary></entry></feed>
