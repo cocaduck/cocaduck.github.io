@@ -19,6 +19,7 @@ categories:
   - 書籍分享
 tags:
   - 閱讀力最新技術大全
+  - 日本書
 author_profile: false
 sidebar:
   - image: /images/Book/00_front.jpg
