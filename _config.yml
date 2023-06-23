@@ -106,7 +106,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "CocaDuck's Blog"
+  name             : "CocaDuck"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "我在研究所和大學主修電機與電子系，期間主要在研究與開發無線通訊及生醫晶片。目前我是一名軟體工程師。<br>在我的部落格中除了分享學校所學到的知識外，也會分享我自己額外學習的知識和閱讀書籍的心得。希望這個平台上的文章可以幫助到你。"
   # bio              : "I study electrical and electronic engineering for BS and MS, respectively. My experience includes developing wireless communication and biomedical chips. Apart from this, I love to read various kind of books.<br><br> In this blog, I would share my opinions after reading a book and some knowledge I've learned from school!"
