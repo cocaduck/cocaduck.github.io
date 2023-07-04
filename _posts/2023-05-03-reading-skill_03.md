@@ -24,7 +24,7 @@ author_profile: false
 sidebar:
   - image: /images/Book/00_front.jpg
     image_alt: "閱讀力最新技術大全之書本照片"
-    text: "作者：佐佐木俊尚"
+    text: "作者：佐佐木俊尚<br>個人評價：★★★★★"
     nav: sidebar-sample
 ---
 由於我們日常生活被動接收的資訊量很大，而且好的資訊得成分很少。因此，我們需要自己主動蒐集的資訊。作者在這個章節中分享了幾個他常用的技巧。

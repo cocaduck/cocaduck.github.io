@@ -24,7 +24,7 @@ author_profile: false
 sidebar:
   - image: /images/Book/00_front.jpg
     image_alt: "閱讀力最新技術大全之書本照片"
-    text: "作者：佐佐木俊尚"
+    text: "作者：佐佐木俊尚<br>個人評價：★★★★★"
     nav: sidebar-sample
 ---
 閱讀的重要性在於：一本書已經具備有概要與觀點的整體的流程，因此書可以帶來多元的視角。

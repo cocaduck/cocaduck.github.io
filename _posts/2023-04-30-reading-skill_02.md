@@ -24,7 +24,7 @@ author_profile: false
 sidebar:
   - image: /images/Book/00_front.jpg
     image_alt: "閱讀力最新技術大全之書本照片"
-    text: "作者：佐佐木俊尚"
+    text: "作者：佐佐木俊尚<br>個人評價：★★★★★"
     nav: sidebar-sample
 ---
 作者在本章節的寫法是逐點列舉關於閱讀內容的小知識。由於我覺得這些小知識沒有很好的整理，並不適合閱讀，這邊把書中的內容做揀選和整理成以下兩點。

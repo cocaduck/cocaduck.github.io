@@ -24,7 +24,7 @@ author_profile: false
 sidebar:
   - image: /images/Book/00_front.jpg
     image_alt: "閱讀力最新技術大全之書本照片"
-    text: "作者：佐佐木俊尚"
+    text: "作者：佐佐木俊尚<br>個人評價：★★★★★"
     nav: sidebar-sample
 ---
 ### 五階段蒐集推特上的資訊

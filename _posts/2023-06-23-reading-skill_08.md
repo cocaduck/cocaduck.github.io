@@ -14,7 +14,7 @@ toc: true
 toc_sticky: true
 title: "閱讀力最新技術大全
 <br>讀後心得"
-excerpt: "閱讀力最新技術大全的讀後心得"
+excerpt: ""
 categories:
   - 書籍分享
 tags:
@@ -24,7 +24,7 @@ author_profile: false
 sidebar:
   - image: /images/Book/00_front.jpg
     image_alt: "閱讀力最新技術大全之書本照片"
-    text: "作者：佐佐木俊尚"
+    text: "作者：佐佐木俊尚<br>個人評價：★★★★★"
     nav: sidebar-sample
 ---
 這是一本我非常喜歡也非常推薦的書。我最近閱讀了幾本日本的工具書下來，覺得都學到很多。這類書的優點在於它會提供大量的小技巧，當我在閱讀時，就會對於其中幾個有共鳴，我會把這些技巧融合到我原先自己的時間管理體系中來進行改良。

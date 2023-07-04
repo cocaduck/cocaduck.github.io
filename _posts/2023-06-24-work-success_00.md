@@ -23,7 +23,7 @@ author_profile: false
 sidebar:
   - image: /images/Book/work-success.jpg
     image_alt: "松下幸之助的職場心法之書本照片"
-    text: "作者：淺田卓"
+    text: "作者：淺田卓<br>個人評價：★★★★☆"
     nav: sidebar-sample
 ---
 ### 買書緣由
