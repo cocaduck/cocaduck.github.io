@@ -12,7 +12,7 @@ comments: false
 show_date: true
 toc: true
 toc_sticky: true
-title: "閱讀力最新技術大全
+title: "＜閱讀力最新技術大全＞
 <br>第二章、如何有效的蒐集好的資訊"
 excerpt: "使用 Feedly 做為 RSS reader，以及付費媒體的使用注意事項。"
 categories:

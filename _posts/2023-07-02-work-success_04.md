@@ -9,7 +9,7 @@ comments: false
 show_date: true
 toc: true
 toc_sticky: true
-title: "松下幸之助的職場心法
+title: "＜松下幸之助的職場心法＞
 <br>第三章、如何應付難應付的人"
 excerpt: "利用紙一張技術來分析難以應付的人"
 categories:

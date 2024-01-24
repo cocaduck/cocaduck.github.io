@@ -9,7 +9,7 @@ comments: false
 show_date: true
 toc: true
 toc_sticky: true
-title: "松下幸之助的職場心法
+title: "＜松下幸之助的職場心法＞
 <br>第三章、紙一張技術應用於會議"
 excerpt: "利用紙一張技術使開會更有效果"
 categories:

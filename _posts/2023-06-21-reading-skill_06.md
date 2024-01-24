@@ -12,7 +12,7 @@ comments: false
 show_date: true
 toc: true
 toc_sticky: true
-title: "閱讀力最新技術大全
+title: "＜閱讀力最新技術大全＞
 <br>第六章、兩種保存方式：頭腦與電腦的搭配"
 excerpt: "結合頭腦與電腦的優點來儲存資料"
 categories:

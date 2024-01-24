@@ -9,7 +9,7 @@ comments: false
 show_date: true
 toc: true
 toc_sticky: true
-title: "松下幸之助的職場心法
+title: "＜松下幸之助的職場心法＞
 <br>第二章、紙一張談話術、優先順序決定法與反省術"
 excerpt: "更多紙一張技術的應用"
 categories:

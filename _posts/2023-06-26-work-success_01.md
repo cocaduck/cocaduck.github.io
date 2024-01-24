@@ -9,7 +9,7 @@ comments: false
 show_date: true
 toc: true
 toc_sticky: true
-title: "松下幸之助的職場心法
+title: "＜松下幸之助的職場心法＞
 <br>第一章、正面聚焦"
 excerpt: "紙一張整理術與正面聚焦"
 categories:

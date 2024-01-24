@@ -12,7 +12,7 @@ comments: false
 show_date: true
 toc: true
 toc_sticky: true
-title: "閱讀力最新技術大全
+title: "＜閱讀力最新技術大全＞
 <br>第三章、如何使用社群軟體蒐集知識"
 excerpt: "使用推特五步驟蒐尋專業知識"
 categories:

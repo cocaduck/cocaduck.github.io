@@ -12,7 +12,7 @@ comments: false
 show_date: true
 toc: true
 toc_sticky: true
-title: "閱讀力最新技術大全
+title: "＜閱讀力最新技術大全＞
 <br>書本簡介與前言"
 excerpt: "閱讀力最新技術大全之書籍簡介"
 categories:

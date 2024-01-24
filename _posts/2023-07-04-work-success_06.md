@@ -9,7 +9,7 @@ comments: false
 show_date: true
 toc: true
 toc_sticky: true
-title: "松下幸之助的職場心法
+title: "＜松下幸之助的職場心法＞
 <br>讀後心得"
 excerpt: ""
 categories:

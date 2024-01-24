@@ -12,7 +12,7 @@ comments: false
 show_date: true
 toc: true
 toc_sticky: true
-title: "閱讀力最新技術大全
+title: "＜閱讀力最新技術大全＞
 <br>第四&五章、閱讀的方式"
 excerpt: "關於閱讀以及不同類型書本的閱讀方式"
 categories:

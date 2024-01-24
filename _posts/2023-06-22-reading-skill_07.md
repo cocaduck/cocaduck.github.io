@@ -12,7 +12,7 @@ comments: false
 show_date: true
 toc: true
 toc_sticky: true
-title: "閱讀力最新技術大全
+title: "＜閱讀力最新技術大全＞
 <br>第八章、多任務處理與時間管理"
 excerpt: "介紹多任務處理並分享我的時間管理方式"
 categories:

@@ -9,8 +9,8 @@ comments: false
 show_date: true
 toc: true
 toc_sticky: true
-title: "松下幸之助的職場心法
-<br>第二章、革新自己的工作方式：怎麼度過周末"
+title: "＜松下幸之助的職場心法＞
+<br>第二章、革新自己的工作方式"
 excerpt: "利用紙一張技術來幫助規劃周末"
 categories:
   - 書籍分享

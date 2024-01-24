@@ -9,9 +9,9 @@ comments: false
 show_date: true
 toc: true
 toc_sticky: true
-title: "松下幸之助的職場心法
+title: "＜松下幸之助的職場心法＞
 <br>書本簡介與前言"
-excerpt: "松下幸之助的職場心法之書本簡介與前言"
+excerpt: "購書緣由與書本前言"
 categories:
   - 書籍分享
 tags:
@@ -26,7 +26,7 @@ sidebar:
     text: "作者：淺田卓<br>個人評價：★★★★☆"
     nav: sidebar-sample
 ---
-### 買書緣由
+### 購書緣由
 我會買這本書是個偶然，因為在網路書店上需要一定金額打折，當下稍微看過目錄後決定嘗試閱讀看看。沒想到這本書的內容非常的實用。
 
 ### 實踐書 vs. 概念書

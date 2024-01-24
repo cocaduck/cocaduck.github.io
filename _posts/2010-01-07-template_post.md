@@ -27,7 +27,17 @@ show_date: true
 toc: true
 toc_sticky: true
 title: "Template Post"
-excerpt: "Testing"
+# excerpt: "書籍簡介"
+# categories:
+#   - 書籍分享
+# tags:
+#   - 日本書
+# author_profile: false
+# sidebar:
+#   - image: /images/Book/...
+#     image_alt: "書籍描述"
+#     text: "作者：x<br>個人評價：★★★★★"
+#     nav: sidebar-sample
 ---
 # Topic
 This post has been updated and should show a modified date if used in a layout.
