@@ -14,7 +14,7 @@ toc: true
 toc_sticky: true
 title: "＜原子習慣＞
 <br>讓行動輕而易舉以改善習慣(後篇)"
-excerpt: "利用想分鐘法則與自動化流程來設計習慣"
+excerpt: "利用兩分鐘法則與自動化流程來設計習慣"
 categories:
   - 書籍分享
 tags:

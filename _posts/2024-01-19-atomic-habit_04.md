@@ -13,7 +13,7 @@ show_date: true
 toc: true
 toc_sticky: true
 title: "＜原子習慣＞
-<br>以行為提示來改善習慣(前篇)"
+<br>以行為提示來改善習慣(後篇)"
 excerpt: "習慣堆疊&環境對於習慣的重要性"
 categories:
   - 書籍分享
